@@ -1,0 +1,209 @@
+/* comon css styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+/* header styles */
+
+/* navbar styles */
+
+nav {
+    padding: 30px 0;
+}
+
+nav .container .icon {
+    display: none;
+}
+
+nav .container .icon i {
+    font-size: 50px;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container .icon-text {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+nav .container .icon-text h2 {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+nav .container .icon-text h2 span {
+    color: #FF5400;
+}
+
+
+.nav-item ul {
+    display: flex;
+    gap: 43px;
+}
+
+
+.nav-item ul li {
+    list-style: none;
+}
+
+.nav-item ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.13rem;
+    font-weight: 700;
+}
+
+.nav-item ul li .active {
+    color: #FF5400;
+}
+
+.nav-item ul li a:hover {
+    color: #FF5400;
+}
+
+/* banner section styles */
+#banner-part .container {
+    padding: 106px 185px;
+    background: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#banner-part .container h1 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+#banner-part .container p {
+    color: #ffffffb2;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 24px 0 64px;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px 60px;
+}
+
+.banner-btn button {
+    padding: 16px 50px 16px 16px;
+    max-width: 25%;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* tour section styles */
+#tour-part {
+    padding: 100px 0;
+}
+
+#tour-part .container {
+    display: flex;
+    gap: 50px;
+}
+
+#tour-part .container .text {
+    width: 50%;
+}
+
+#tour-part .container .text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+#tour-part .container .text li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#tour-part .container .images {
+    width: 50%;
+}
+
+#tour-part .container .images img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* small device responsive */
+@media screen and (max-width:600px) {
+
+    /* nav responsive start */
+    nav {
+        padding: 20px 25px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    nav .container .icon {
+        display: block;
+    }
+
+    /* nav responsive end */
+    #banner-part .container h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    #banner-part .container {
+        padding: 36px 43px;
+    }
+
+    #banner-part .container p {
+        margin: 12px 0 22px;
+    }
+
+    .banner-btn {
+        flex-direction: column;
+    }
+
+    .banner-btn button {
+        max-width: 100%;
+    }
+}
