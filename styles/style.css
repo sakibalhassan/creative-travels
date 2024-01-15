@@ -17,6 +17,17 @@
     font-weight: 800;
 }
 
+.btn-primary {
+    padding: 14px 35px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: 0;
+}
+
 /* header styles */
 
 /* navbar styles */
@@ -186,6 +197,8 @@ nav .container .icon-text h2 span {
     }
 
     /* nav responsive end */
+
+    /* banner section responsive */
     #banner-part .container h1 {
         font-size: 3rem;
         text-align: center;
@@ -205,5 +218,19 @@ nav .container .icon-text h2 span {
 
     .banner-btn button {
         max-width: 100%;
+    }
+
+    /* tour section responsive */
+    #tour-part {
+        padding: 100px 30px;
+    }
+
+    #tour-part .container {
+        flex-direction: column;
+    }
+
+    #tour-part .container .text,
+    #tour-part .container .images {
+        width: 100%;
     }
 }
