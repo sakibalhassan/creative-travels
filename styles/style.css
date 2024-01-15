@@ -254,6 +254,86 @@ nav .container .icon-text h2 span {
     font-weight: 400;
 }
 
+/* discounts styles */
+#discount-part {
+    padding-bottom: 100px;
+}
+
+.discount-img-container {
+    margin-top: 48px;
+    width: 100%;
+    padding: 55px 535px 55px 55px;
+}
+
+.discount-img-container {
+    margin-top: 48px;
+    width: 100%;
+    background: url('../Images/Group\ 39.png');
+    padding: 55px 55px 55px 535px;
+}
+
+.discount-img-container {
+    margin-top: 48px;
+    width: 100%;
+    background: url('../Images/Group\ 40.png');
+    padding: 55px 55px 55px 535px;
+}
+
+.discount-img-container {
+    margin-top: 48px;
+    width: 100%;
+    background: url('../Images/Group\ 39.png');
+    padding: 55px 55px 55px 535px;
+}
+
+#discount-part .container .text {
+    text-align: center;
+}
+
+#discount-part .container .text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 24px 0;
+    margin: 0 auto;
+}
+
+#discount-part .price {
+    display: flex;
+    gap: 10px;
+}
+
+#discount-part .price h4 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 26px;
+}
+
+#discount-part p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 452px;
+    margin: 16px 0;
+}
+
+#discount-part h3 {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+#discount-part .price-container {
+    padding: 50px 77px 50px 50px;
+    width: 570px;
+    border-radius: 16px;
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
 
 
 
@@ -340,5 +420,10 @@ nav .container .icon-text h2 span {
 
     #card-part .card {
         width: 100%;
+    }
+
+    /* discount part styles */
+    #discount-part .price-container {
+        margin-left: -519px;
     }
 }
