@@ -114,6 +114,12 @@ nav .container .icon-text h2 span {
     margin: 24px 0 64px;
 }
 
+form {
+    border: 1px solid red;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
 .banner-btn {
     display: flex;
     gap: 24px;
@@ -286,6 +292,10 @@ nav .container .icon-text h2 span {
     padding: 55px 55px 55px 535px;
 }
 
+.discount-img-container img {
+    width: 100%;
+}
+
 #discount-part .container .text {
     text-align: center;
 }
@@ -333,6 +343,198 @@ nav .container .icon-text h2 span {
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
 }
+
+/* place part styles */
+#place-part {
+    padding-bottom: 100px;
+}
+
+#place-part .container {
+    display: flex;
+    gap: 24px;
+}
+
+#place-part .left {
+    width: 52%;
+}
+
+#place-part .left p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 24px 0;
+}
+
+#place-part .left li {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#place-part .right {
+    width: 47%;
+    background: url('../Images/Group\ 40089.png');
+    padding: 176px 167px;
+}
+
+#place-part .right img {
+    width: 100%;
+}
+
+#place-part .right h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 276px;
+}
+
+
+/* newsletter styles */
+#newsletter {
+    padding-bottom: 100px;
+}
+
+#newsletter .container {
+    display: flex;
+    gap: 24px;
+}
+
+#newsletter .container .left {
+    width: 45%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+#newsletter .container .left h4 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+#newsletter .container .left p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#newsletter .container .left hr {
+    margin: 24px 0;
+}
+
+#newsletter .container .right {
+    width: 54%;
+    background: url(../Images/Rectangle\ 8\ \(1\).png);
+}
+
+#newsletter .container .right .text {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    padding: 30px 0;
+    position: relative;
+    top: 53%;
+    left: 46%;
+    transform: rotate(-23deg);
+}
+
+#newsletter .container .right .text h4 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#newsletter .container .right .text h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.input-btn input {
+    width: 100%;
+    padding: 16px 250px 16px 20px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    margin-bottom: 16px;
+}
+
+.input-btn button {
+    width: 100%;
+    padding: 14px 147px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* footer styles */
+footer {
+    background: rgba(19, 19, 24, 0.05);
+}
+
+footer .container {
+    padding: 110px 307px;
+}
+
+
+footer .container .icon-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+footer .container .icon-content h3 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+footer .container .icon-content h3 span {
+    color: #FF5400;
+}
+
+footer .container p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 25px 0;
+}
+
+footer .icon {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .icon i {
+    font-size: 2rem;
+}
+
+footer hr {
+    margin: 50px 0;
+}
+
+footer h5 {
+    text-align: center;
+}
+
+footer h5 small {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
 
 
 
@@ -426,4 +628,47 @@ nav .container .icon-text h2 span {
     #discount-part .price-container {
         margin-left: -519px;
     }
+
+    /* place part responsive */
+    #place-part .container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    #place-part .container .left {
+        width: 100%;
+    }
+
+    #place-part .container .right {
+        width: 100%;
+    }
+
+    /* newsletter responsive */
+    #newsletter .container {
+        flex-direction: column;
+    }
+
+    #newsletter .container .left {
+        width: 100%;
+    }
+
+    #newsletter .container .right {
+        width: 100%;
+        padding: 100px 200px;
+    }
+
+    #newsletter .container .right .text {
+        width: 324px;
+        padding: 30px 0;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: rotate(0deg);
+    }
+
+    /* footer responsive */
+    footer .container {
+        padding: 20px 18px;
+    }
+
 }
